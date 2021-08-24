@@ -1,0 +1,42 @@
+.info{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    max-width: 900px;
+    margin:  auto;
+}
+
+.info p{
+    
+}
+
+.heading h4{
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: 10.5rem;
+    padding: .5rem;
+}
+
+@media(max-width:768px){
+    .info p{
+        padding: 1rem;
+    }
+
+    footer {
+        margin-top: 35.1rem;
+    }
+}
+
+@media(max-width:500px){
+    footer {
+        margin-top: 14.1rem;
+    }
+}
+
